@@ -1,0 +1,31 @@
+/* Convencion
+1.Posicionamiento
+2.Box modol
+3.Tipografica
+4.Efectos visuales
+5.Otros
+*/
+:root{
+    /*Colores*/
+    --red:#DF1E1E;
+    --soft-Red:#FD4343;
+    --soft-Blue:#F5F5F5;
+    --warm-Black:#201E1C;
+    --off-white:#faf8f7;
+    --white:#fff;
+    /*Fuentes*/
+    --title:font-family: 'Lato', sans-serif;;
+    --text:font-family: 'Noto Sans', sans-serif;;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: var(--text);
+}
+h1{
+    font-family: var(--title);
+}
