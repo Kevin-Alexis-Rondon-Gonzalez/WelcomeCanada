@@ -11,11 +11,8 @@
     --soft-Red:#FD4343;
     --soft-Blue:#F5F5F5;
     --warm-Black:#201E1C;
-    --off-white:#faf8f7;
-    --white:#fff;
-    /*Fuentes*/
-    --title:font-family: 'Lato', sans-serif;;
-    --text:font-family: 'Noto Sans', sans-serif;;
+    --off-white:#f7f7f7;
+    --white:#fff; 
 }
 *{
     box-sizing: border-box;
@@ -24,8 +21,165 @@
 }
 html{
     font-size: 62.5%;
-    font-family: var(--text);
+    font-family: 'Open Sans', sans-serif;
 }
-h1{
-    font-family: var(--title);
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 260px;
+    text-align: center;
+    border-bottom: 2px solid rgb(133, 133, 133);
+    background: rgb(255,255,255);
+    background: linear-gradient(360deg, rgba(255,255,255,1) 20%, rgba(255,0,0,0.8211659663865546) 100%);
+}
+header img{
+    width: 100px;
+    height: 50px;
+    margin-top: 30px;
+    align-self: center;
+}
+.header-title-container{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 30px;
+    text-align: center;
+    align-self: center;
+}
+.header-title-container h1{
+    font-size: 2.6rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--soft-Blue);
+}
+.header-title-container p{
+    margin-top: 18px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--warm-Black);
+}
+.header-title-container .header-button{
+    position:absolute;
+    left: calc(50% - 90px );
+    top: 237px;
+    display: block;
+    padding: 14px;
+    width: 180px;
+    height: 40px;
+    background-color: var(--off-white);
+    /*Shadow*/
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--warm-Black);
+    cursor: pointer;
+}
+.header-button span{
+    display: inline-block;
+    width: 18px;
+    height: 12px;
+    margin-left: 10px;
+    background-image: url('/assets/icons/flechaHaciaAbajo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.main-exchange-container{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: auto;
+    min-height: 240px;
+    margin-top: 40px;
+    text-align:justify;
+    align-self: center;
+    border-bottom: 1px solid var(--warm-Black);
+}
+.main-exchange-information h2{
+    font-size: 1.6rem;
+    text-align: center;
+}
+.main-exchange-information p{
+    margin-top: 14px;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+.main-exchange-information p a {
+    text-decoration: none;
+    color: #201E1C;
+    font-weight: bold;
+}
+.main-exchange-information p a span{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-image: url('/assets/icons/accesoDirectoRojo.png');
+    background-position: center;
+    background-size: contain;
+}
+.carrusel-items{
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 12px 0px;
+    height: 310px;
+}
+.carrusel-item-img{
+    min-width: 300px;
+    max-width: 300px;
+    height: 300px;
+}
+.carrusel-item-img img{
+    width: 96%;
+    height: 96%;
+    object-fit: cover;
+    border-radius: 6px;   
+}
+.carrusel-item-img :hover{
+    transform: scale(1.2);
+}
+
+.main-exchange-study{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: auto;
+    min-height: 180px;
+    margin-top: 20px;
+    text-align:justify;
+    align-self: center;
+    border-bottom: 1px solid var(--warm-Black);
+}
+.main-exchange-study-information h2{
+    font-size: 1.8rem;
+    text-align: center;
+}
+.main-exchange-study-information h2 a{
+    text-decoration: none;
+    color: #201E1C;
+}
+.main-exchange-study-information h2 a span{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-image: url('/assets/icons/accesoDirectoRojo.png');
+    background-size: contain;
+    margin-left: 8px;
+}
+.main-exchange-study-information p{
+    font-size: 1.4rem;
+    margin-top: 14px;
 }
