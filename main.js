@@ -23,5 +23,8 @@ carrusel.addEventListener('mouseover', () =>{
 window.addEventListener('load', () => {
     startCarrusel();
 });
+carrusel.addEventListener('mouseout', () => {
+    startCarrusel();
+});
 
 //End carrusel
