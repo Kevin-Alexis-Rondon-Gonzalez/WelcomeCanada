@@ -130,12 +130,16 @@ main{
     background-position: center;
     background-size: contain;
 }
+.carrusel{
+    margin-bottom: 20px;
+}
 .carrusel-items{
     display: flex;
     overflow-x: hidden;
     overflow-y: hidden;
     padding: 12px 0px;
     height: 310px;
+    width: 100%;
 }
 .carrusel-item-img{
     min-width: 300px;
@@ -171,10 +175,18 @@ main{
     text-decoration: none;
     color: #201E1C;
 }
-.main-exchange-study-information h2 a span{
+.study-icon-1{
     display: inline-block;
-    width: 12px;
-    height: 12px;
+    width: 15px;
+    height: 15px;
+    background-image: url('/assets/icons/libroRojo.png');
+    background-size: contain;
+    margin-left: 8px;
+}
+.study-icon-2{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
     background-image: url('/assets/icons/accesoDirectoRojo.png');
     background-size: contain;
     margin-left: 8px;
@@ -182,4 +194,29 @@ main{
 .main-exchange-study-information p{
     font-size: 1.4rem;
     margin-top: 14px;
+}
+.study-information-section{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 28px;
+}
+.study-information-section-title{
+    font-size: 1.6rem;
+    margin-top: 18px;
+    margin-bottom: 16px;
+}
+.study-information-section-list{
+    margin-left: 18px;
+}
+.study-information-section ul{
+    width: 95%;
+}
+.study-information-section ul li{
+    margin-bottom: 8px;   
+    font-size: 1.4rem;
+}
+.study-information-section ul li a{
+    text-decoration:none;
+    color: var(--soft-Red);
+    cursor: pointer;
 }
