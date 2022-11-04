@@ -1,4 +1,4 @@
-//Start Carrusel
+//Begin Carrusel
 const carrusel = document.querySelector(".carrusel-items");
 let maxScrollLeft = carrusel.scrollWidth - carrusel.clientWidth;
 let intervalo = null;
@@ -26,5 +26,4 @@ window.addEventListener('load', () => {
 carrusel.addEventListener('mouseout', () => {
     startCarrusel();
 });
-
 //End carrusel

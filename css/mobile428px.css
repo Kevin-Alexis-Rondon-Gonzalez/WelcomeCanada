@@ -1,0 +1,22 @@
+header img{
+    width: 160px;
+    height: 100px;
+}
+.main-exchange-information h2{
+    font-size: 1.8rem;
+}
+.main-exchange-study-information p{
+    font-size: 1.6rem;
+}
+.main-exchange-work-information p{
+    font-size: 1.6rem;
+}
+.main-exchange-travel-information p{
+    font-size: 1.6rem;
+}
+.main-map p{
+    font-size: 1.6rem;
+} 
+.map{
+    width: 95%;
+}

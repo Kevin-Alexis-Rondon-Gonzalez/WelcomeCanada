@@ -30,16 +30,15 @@ header{
     justify-content: center;
     width: 100%;
     min-width: 320px;
-    height: 260px;
+    height: 200px;
     text-align: center;
-    border-bottom: 2px solid rgb(133, 133, 133);
     background: rgb(255,255,255);
     background: linear-gradient(360deg, rgba(255,255,255,1) 20%, rgba(255,0,0,0.8211659663865546) 100%);
 }
 header img{
     width: 100px;
     height: 50px;
-    margin-top: 30px;
+    margin-top: 20px;
     align-self: center;
 }
 .header-title-container{
@@ -52,10 +51,11 @@ header img{
     align-self: center;
 }
 .header-title-container h1{
-    font-size: 2.6rem;
+    font-size: 2.8rem;
     font-weight: bold;
     line-height: 2.6rem;
-    color: var(--soft-Blue);
+    color: var(--warm-Black);
+    font-weight: bold;
 }
 .header-title-container p{
     margin-top: 18px;
@@ -334,4 +334,133 @@ main{
 }
 .work-information-socialmedia{
 margin-bottom: 20px;   
+}
+.main-exchange-travel{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: auto;
+    min-height: 180px;
+    margin-top: 20px;
+    text-align:justify;
+    align-self: center;
+    border-bottom: 1px solid var(--warm-Black);
+
+}
+.main-exchange-travel-information h2{
+    text-align: center;
+}
+.main-exchange-travel-information h2 a{
+    font-size: 1.8rem;
+    text-align: center;
+    text-decoration: none;
+    color: var(--warm-Black);
+    margin: 20px 0px;
+}
+.travel-icon-1{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('/assets/icons/avionRojo.png');
+    background-size: contain;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.travel-icon-2{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url('/assets/icons/accesoDirectoRojo.png');
+    background-size: contain;
+    margin-left: 4px;
+}
+.main-exchange-travel-information p{
+    font-size: 1.5rem;
+    color: var(--warm-Black);
+    margin-top: 14px;
+}
+.travel-information-section-title{
+    font-size: 1.6rem;
+    margin-top: 18px;
+    margin-bottom: 16px;
+}
+.travel-information-section-list ul{
+    margin-left: 18px;
+    width: 95%;
+}
+.travel-information-section-list ul li {
+    margin-bottom: 8px;
+}
+.travel-information-section-list ul li a{
+    text-decoration: none;
+    color:var(--soft-Red);
+    font-size: 1.4rem;
+}
+.main-exchange-map{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: auto;
+    min-height: 180px;
+    margin-top: 20px;
+    text-align:justify;
+    align-self: center;
+}
+.main-map h2{
+    font-size: 1.8rem;
+    text-align: center;
+}
+.main-map p{
+    font-size: 1.5rem;
+    color: var(--warm-Black);
+    margin-top: 14px;
+} 
+/*Begin Map*/
+.map{
+    width: 100%;
+    margin: auto;
+}
+.map path{
+    fill: #B9E0FF;
+    stroke: var(--warm-Black);
+    stroke-width: 1.5px;
+}
+.map :hover{
+    fill: var(--soft-Red);
+}
+/*End Map*/
+footer{
+    width: 100%;
+    background-color: var(--warm-Black);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 14px;
+}
+.footer-container-information{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-self: center;
+}
+.footer-container-information p{
+    font-size: 1.4rem;
+    margin-top: 14px;
+    margin-bottom: 10px;
+}
+.footer-container-information p a{
+    color: var(--soft-Red);
+    text-decoration: none;
+    font-size: 1.8rem;
+    margin-left: 6px;
+}
+.footer-section2 span{
+    display: inline-block;
+    width: 160px;
+    height: 90px;
+    background-image: url('/assets/image/LogoBlancoSinFondo.png');
+    background-size:contain;
+    background-repeat: no-repeat;
 }
