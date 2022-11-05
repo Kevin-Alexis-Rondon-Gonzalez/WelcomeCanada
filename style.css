@@ -302,7 +302,7 @@ main{
     display: inline-block;
     width: 38px;
     height: 38px;
-    background-image:url('/assets/icons/youtube-icon\ \(1\).png');
+    background-image:url('./assets/icons/youtube-icon\ \(1\).png');
     background-size: contain;
     margin-left: 12px;
     margin-top: 16px;
