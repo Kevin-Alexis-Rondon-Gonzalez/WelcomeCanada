@@ -129,7 +129,7 @@ main{
     display: inline-block;
     width: 12px;
     height: 12px;
-    background-image: url('./assets/icons/accesoDirectoRojo.png');
+    background-image:url('./assets/icons/accesoDirectoRojo.png');
     background-position: center;
     background-size: contain;
 }
@@ -460,7 +460,7 @@ footer{
     display: inline-block;
     width: 160px;
     height: 90px;
-    background-image: url('/assets/image/LogoBlancoSinFondo.png');
+    background-image:url('./assets/image/LogoBlancoSinFondo.png');
     background-size:contain;
     background-repeat: no-repeat;
 }
