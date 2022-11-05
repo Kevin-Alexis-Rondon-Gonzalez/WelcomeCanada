@@ -129,7 +129,7 @@ main{
     display: inline-block;
     width: 12px;
     height: 12px;
-    background-image: url('/assets/icons/accesoDirectoRojo.png');
+    background-image: url('./assets/icons/accesoDirectoRojo.png');
     background-position: center;
     background-size: contain;
 }
